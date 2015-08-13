@@ -6,7 +6,6 @@ var add=document.getElementById('addTable').addEventListener('click',addTabl,fal
         table.forEach(function(i) {
             table +=table.childNodes;
             document.body.appendChild(table)
-
         });
 
     }
