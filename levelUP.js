@@ -20,6 +20,7 @@ addElement.addEventListener('click',function(event){
 var removeElement = document.getElementById('removeElement');
 removeElement.addEventListener('click',function(event){
     test.removeChild(newH);
-})
+});
+
 
 

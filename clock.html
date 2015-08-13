@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Часы</title>
+
+</head>
+<body>
+<div id="time">
+    <body> <p id="txt"> </p> </body>
+    
+</div>
+<!--<script src="clock.js"></script>-->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var allElements = document.getElementsByTagName("*");
+        for (var i=0; i < allElements.length; i++) {
+            allElements[i].addEventListener("click",function() {console.log(this.tagName);},false);
+        };
+        document.addEventListener("click",function() {console.log(this);},false);
+        window.addEventListener("click",function() {console.log(this);},false);
+    });
+</script>
+</body>
+</html>
