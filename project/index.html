@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="libs/jquery-2.1.4.js"></script>
+    <script src="libs/underscore.js"></script>
+    <script src="libs/backbone.js"></script>
+    <script src="init-app.js"></script>
+    <script src="js/Models/PupilModel.js"></script>
+    <script src="js/Views/PupilCollectionView.js"></script>
+    <script src="entry-point.js"></script>
+    <script type="text/template" id="pupilTemplete">
+        <strong><%=name%></strong>
+        <strong><%=surname%></strong>
+        <p><%=mathematics&></p>
+        <p><%=english%></p>
+        <p><%=ukrainian%></p>
+        <p><%history%></p>
+        <p><%koefPupil%></p>
+    </script>
+</head>
+<body>
+<div class="header">
+    <h1>Ученики</h1>
+</div>
+<div class="main">
+    <ul>
+        <li class="clickAddPupil"></li>
+    </ul>
+</div>
+<div class="footer">
+    <button class="button-vk" onclick="location.href='#'">
+    <button class="button-twitter" onclick="location.href='#'">
+    <button class="button-mail" onclick="location.href='#'">
+    <button class="button-faceBook" onclick="location.href='#'">
+</div>
+    <form class="none">
+            <label><strong>Имя:</strong><input class="name"></label>
+            <label><strong>Фамилия:</strong><input class="surname"></label><hr>
+            <label>Математика:<input class="mathematics"></label>
+            <label>Английский:<input class="english"></label>
+            <label>Украинский:<input class="ukrainian"></label>
+            <label>ИсторияУкр:<input class="history"></label>
+            <button class="addFormPupil">Добавить</button>
+    </form>
+</body>
+</html>

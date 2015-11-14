@@ -9,13 +9,7 @@ window.onload = function (){
             var e =document.querySelectorAll('#q tbody>tr>td');
                 var s =document.querySelectorAll('#q tr:first-child');
                 var q =document.querySelectorAll('#q tr>td:nth-of-type(3)');
-            for(var i=0; i< s.length;i++){
-                copy_table.appendChild(s[i])
-            }
-
-
-
-
+            copy_table.innerHTML = q
                 document.body.appendChild(copy_table);
                 copy_table.classList.add('t2');
         },false);

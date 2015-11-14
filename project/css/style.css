@@ -1,0 +1,279 @@
+/*.student-data{*/
+    /*width: 380px;*/
+    /*height: 385px;*/
+    /*position:absolute;*/
+    /*top: 150px;*/
+    /*left: 520px;*/
+    /*display: none;*/
+/*}*/
+/*.student-data-none{*/
+    /*width: 380px;*/
+    /*height: 365px;*/
+    /*display: flex;*/
+    /*position:absolute;*/
+    /*top: 150px;*/
+    /*left: 520px;*/
+/*}*/
+/*.student-data fieldset{*/
+    /*background:url(../images/fon.png);*/
+    /*border: solid #93572f 1px;*/
+    /*border-radius: 8px;*/
+/*}*/
+/*.student-data input{*/
+    /*border-radius: 10px;*/
+    /*box-shadow: 5px 4px 14px 0px #93572f;*/
+    /*margin: 8px;*/
+    /*outline: none;*/
+    /*padding-left: 6px;*/
+/*}*/
+/*.student-data span.top label{*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*font-size: 25px;*/
+/*}*/
+/*.student-data span.bottom label{*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*margin: 5px;*/
+    /*font-size: 18px;*/
+/*}*/
+/*.student-data button{*/
+    /*float: right;*/
+    /*margin-right:8px ;*/
+    /*width: 176px;*/
+    /*height: 30px;*/
+    /*border: solid #93572f 1px;*/
+    /*border-radius: 10px;*/
+    /*box-shadow: 5px 4px 14px 0px #44361b;*/
+    /*background-color: #a48a5b;*/
+    /*font-variant: small-caps;*/
+    /*font-size: 20px ;*/
+    /*font-weight: bold;*/
+    /*outline: none;*/
+/*}*/
+/*.student-data button:hover{*/
+    /*float: right;*/
+    /*margin-right:8px ;*/
+    /*width: 178px;*/
+    /*height: 32px;*/
+    /*border: solid #93572f 1px;*/
+    /*border-radius: 10px;*/
+    /*box-shadow: 5px 4px 14px 0px #44361b;*/
+    /*background-color: #957f55;*/
+    /*font-variant: small-caps;*/
+    /*font-size: 20px ;*/
+    /*font-weight: bold;*/
+    /*outline: none;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.line{*/
+    /*border-bottom: solid #44361b 3px;*/
+    /*margin-top:10px;*/
+    /*margin-bottom: 10px ;*/
+/*}*/
+/*body{*/
+    /*background:url(../images/input_fon.png)no-repeat;*/
+    /*background-size: 100% 100%;*/
+/*}*/
+/*.content{*/
+    /*width: 1000px;*/
+    /*min-height: 1200px;*/
+    /*margin: -10px 12%;*/
+    /*padding: 0px;*/
+/*}*/
+/*.header{*/
+    /*text-align: center;*/
+    /*text-transform: uppercase;*/
+    /*margin-top:5px ;*/
+    /*text-shadow:1px 2px 3px #001122;*/
+    /*color: #e3c080;*/
+    /*margin-bottom: 40px;*/
+/*}*/
+/*.content ul li{*/
+    /*min-width: 220px;*/
+    /*min-height: 300px;*/
+    /*border: solid 3px #44361b;*/
+    /*box-shadow: 5px 4px 14px 0px #5c3e38;*/
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*margin-left: 15px;*/
+    /*margin-top: 15px;*/
+/*}*/
+/*.content ul li:first-child{*/
+    /*margin-left: -5px;*/
+    /*background:url(../images/add_human.png)no-repeat;*/
+    /*background-size: 260px 300px;*/
+/*}*/
+/*.content ul li:first-child:hover{*/
+    /*margin-left: -5px;*/
+    /*background:url(../images/add_human.png)no-repeat;*/
+    /*background-size: 262px 302px;*/
+    /*box-shadow: 6px 5px 14px 0px #5c3e38;*/
+/*}*/
+/*.content ul li:nth-child(5){*/
+    /*margin-left: -5px;*/
+/*}*/
+/*.content ul li:nth-child(9){*/
+    /*margin-left: -5px;*/
+/*}*/
+/*.content ul li:nth-child(13){*/
+    /*margin-left: -5px;*/
+/*}*/
+/*.content ul li:after{*/
+    /*content:'';*/
+    /*display:table;*/
+    /*clear:both;*/
+/*}*/
+/*.opacity{*/
+    /*opacity: 0.5;*/
+/*}*/
+form {
+    width: 200px;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: solid 2px #333333;
+    border-radius: 15px;
+    padding: 20px 60px 20px 75px;
+    background-image: linear-gradient(0deg, rgba(88,67,67,1) -10px, rgba(190,159,65,0.7) 50%);
+}
+.none{
+    display: none;
+}
+form label input{
+    display: block;
+    border-radius: 10px;
+    border: solid 2px #333333;
+    height: 30px;
+    outline: none;
+    padding-left: 15px;
+}
+hr{
+    border-bottom: solid #333333 2px;
+    box-shadow: -4px -5px 31px -4px #000000 inset;
+}
+form label{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+form button{
+    width: 187px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: solid 2px #333333;
+    margin-top: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color:#be9f41 ;
+}
+form button:hover{
+    box-shadow: 0px 0px 18px 0px #75412f;
+}
+html{
+    height:100%
+}
+body{
+    padding: 0;
+    margin: 0;
+    height:100%;
+}
+.header{
+    background-color: #3a2216;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    text-shadow: -1px -1px #000,
+    0 1px 0 #444;
+    color: #a77e43;
+    transition: all 1s;
+    text-transform: uppercase;
+}
+.header h1:hover {
+    text-shadow: -1px -1px #000,
+    0 1px 0 #444;
+    color: #cf8720;
+}
+.main{
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+    background:url(../images/fon.jpg)no-repeat;
+    background-size: 100%100%;
+}
+.main li{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    background: #685d4d;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 2px #333333;
+    opacity: 0.9;
+}
+.main li:first-child{
+    background:url(../images/add_human.png)no-repeat;
+    background-size: 230px 300px;
+}
+.main li:hover{
+    box-shadow: 0px 0px 28px 8px #957340;
+    opacity: 1;
+    cursor: pointer;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #3a2216;
+}
+ .footer button{
+    border: solid 2px #333333;
+    border-radius: 10px;
+    width: 38px;
+    height: 38px;
+    margin: 5px;
+    box-shadow: 0px 0px 20px 1px #3e433d inset;
+    outline: none;
+    cursor: pointer;
+}
+.footer button:hover{
+    box-shadow: 0px 0px 28px 8px #957340;
+}
+.button-vk{
+    background: url("../images/social.png")-1px 36px;
+}
+.button-vk:hover{
+    background: url("../images/social.png")-1px 0px;
+}
+.button-twitter{
+    background: url("../images/social.png")-105px 36px;
+}
+.button-twitter:hover{
+    background: url("../images/social.png")-105px -2px;
+}
+.button-mail{
+    background: url("../images/social.png")-154px 36px;
+}
+.button-mail:hover{
+    background: url("../images/social.png")-154px -2px;
+}
+.button-faceBook{
+    background: url("../images/social.png")-52px 36px;
+}
+.button-faceBook:hover{
+    background: url("../images/social.png")-52px 0px;
+}
